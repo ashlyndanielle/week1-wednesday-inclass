@@ -1,0 +1,137 @@
+
+.main-container {
+    display: flex;
+    width: 100vw;
+}
+
+aside {
+    background: #333;
+    height: 100vh;
+}
+
+.top-list {
+    width: 300px;
+}
+
+ul {
+    position: relative;
+}
+
+li {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+path {
+    fill: lightblue;
+}
+
+li h4 {
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: lightblue;
+}
+
+.bottom-list {
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+}
+
+.bottom-list-items {
+    margin-left: 40px;
+}
+
+.right-svg {
+    position: absolute;
+    right: 6px;
+}
+
+/*----right section----*/
+
+.whole-section {
+    width: 100%;
+}
+/*----navbar----*/
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    font-family: sans-serif;
+    padding-right: 15px;
+}
+
+.nav-bar path {
+    fill: black;
+}
+
+/*----sub-header----*/
+
+.sub-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.arrows {
+    display: flex;
+    font-family: sans-serif;
+    padding-right: 10px;
+}
+
+/*----main product section----*/
+
+.product-wrapper {
+    width: 100%;
+    background: #EFEFEF;
+    height: 100%;
+}
+
+.product-wrapper path {
+    fill: black;
+}
+/*----name dropdown----*/
+
+.trip-head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.drop {
+    display: flex;
+    font-family: sans-serif;
+    padding-right: 15px;
+}
+
+/*----products----*/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.img-placeholder {
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    background: lightblue;
+}
+/*----bottom of page----*/
+
+.end-products {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-top: 40px;
+}
+
